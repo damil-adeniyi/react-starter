@@ -80,4 +80,4 @@ function Cards() {
 	);
 }
 
-export default Cards;
+export { Cards };
