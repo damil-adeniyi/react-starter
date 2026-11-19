@@ -2,11 +2,11 @@ import './card.css';
 
 function Cards() {
 	return (
-        <section class="card-container">
+        <section className="card-container">
             
             {/* CSS Card  */}
-			<div class="card css-card">
-				<div class="logo-wrapper">
+			<div className="card css-card">
+				<div className="logo-wrapper">
 					<svg viewBox="0 0 128 128" xmlns="http://w3.org">
 						<path
 							fill="#264DE4"
@@ -34,8 +34,8 @@ function Cards() {
 			</div>
 
 			{/* JavaScript Card */}
-			<div class="card js-card">
-				<div class="logo-wrapper">
+			<div className="card js-card">
+				<div className="logo-wrapper">
 					<svg viewBox="0 0 128 128" xmlns="http://w3.org">
 						<rect width="128" height="128" rx="16" fill="#F7DF1E" />
 						<path
@@ -55,8 +55,8 @@ function Cards() {
 			</div>
 
 			{/* React Card */}
-			<div class="card react-card">
-				<div class="logo-wrapper">
+			<div className="card react-card">
+				<div className="logo-wrapper">
 					<svg viewBox="-11.5 -10.23174 23 20.46348" xmlns="http://w3.org">
 						<circle cx="0" cy="0" r="2.05" fill="#61dafb" />
 						<g stroke="#61dafb" stroke-width="1" fill="none">
@@ -71,7 +71,7 @@ function Cards() {
 					A declarative JavaScript library for building fast, component-based
 					user interfaces for web and native platforms.
 				</p>
-				<a href="#react" class="card-btn react-btn">
+				<a href="#react" className="card-btn react-btn">
 					Learn React
 				</a>
 			</div>
